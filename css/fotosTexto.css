@@ -1,0 +1,105 @@
+
+body{
+    background: url("../img/fondo_index.png");
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+    background-color: gray;
+    opacity: 0.5; 
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    border-radius: 5%;
+    top: 0;
+    height: 13%;
+}
+
+nav{
+    float: left;
+    margin: 20px;
+    width: 33%;
+    display: inline;
+    
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+#n_s{
+    color:#FFB700;
+}
+
+#search{
+    float: center;
+    margin: 30px;
+    display: inline;
+}
+
+
+#carrito{
+
+    float: right;
+    margin: 1% 1% 1%;
+    text-align: right;
+    width: 5%;
+    display: inline-flex;
+    
+ }
+
+ #Cont1{
+    margin-top: 80px;
+    width: 100%;
+    
+}
+
+
+#fotico{
+
+
+    
+    float: inline-start;
+    border-radius: 5%;
+    padding: auto;
+    width: 100px;
+    height: auto;
+    margin-block-end: auto;
+    position: relative;
+    border: 1px solid red;
+    
+}
+
+#fotosProductos{
+width: 300px;
+height: auto;
+object-fit: cover;
+background-color: rgba(255, 183, 0 .5) ;
+
+}
+
+figure{
+  
+    margin-block-end: auto;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding: auto;
+
+}
+
+figcaption{
+   color: aliceblue;
+    transition: all 1s;
+    background :rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    bottom: -100%;
+    width: 90%;
+    padding: 5%;
+
+}
+
+figure:hover figcaption{
+    bottom: 0%;
+}

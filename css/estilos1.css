@@ -66,11 +66,11 @@ nav a{
 }
 
 .Cont_Prod1 img{
-    width: 33%;
+    width: 100%;
 }
 
 .Cont_Prod1 >div{
-    width: 31%;
+    width: 30%;
     margin: 0%;
     padding: 1%;
     text-align: center;
@@ -96,7 +96,7 @@ nav a{
         background :rgba(0, 0, 0, 0.7);
         position: absolute;
         left: 0px;
-        bottom: -1500%;
+        bottom: -90%;
         width: 90%;
         padding: 5%;
     
