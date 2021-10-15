@@ -56,17 +56,15 @@ nav a{
 
 
 #fotico{
-
-
     
-    float: inline-start;
+    float: none;
     border-radius: 5%;
     padding: auto;
     width: 100px;
     height: auto;
     margin-block-end: auto;
     position: relative;
-    border: 1px solid red;
+    
     
 }
 
@@ -94,12 +92,61 @@ figcaption{
     background :rgba(0, 0, 0, 0.7);
     position: absolute;
     left: 0px;
-    bottom: -100%;
+    bottom: -105%;
     width: 90%;
     padding: 5%;
-
+    border: 2px solid #FFB700;
 }
 
 figure:hover figcaption{
     bottom: 0%;
+}
+
+.titulo{
+    float:initial;
+    font-size: medium;
+    color: azure;
+    text-shadow: 1px 2px  2px #FFB700;
+
+}
+
+
+footer{
+   
+    border: 1px solid #FFB700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    background: rgbA(255, 183, 0, .5);
+    Position: center;
+    
+  }
+
+  .fot{
+    border: 10px solid #FFB700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100% auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1%;
+  }
+
+  .btnregistro{
+      border: none;
+      cursor: pointer;
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      margin: 1rem;
+      color: #FFB700;
+      background: linear-gradient(to right, rgb(175, 164, 12) 50% rgb(177, 5, 212) 50%) no-repeat left/200%;
+    transition: background-position 0.3s ease ;
+  }
+  .btnregistro:hover{S
+    
+    background-position: right;
+    color: black;
 }
